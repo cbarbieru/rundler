@@ -1,0 +1,20 @@
+{
+    "network-name": "localhost",
+    "rpc-url": "http://geth:8545",
+    "min-entity-stake": 1,
+    "min-executor-balance": "1000000000000000000",
+    "min-entity-unstake-delay": 1,
+    "max-bundle-wait": 3,
+    "max-bundle-size": 3,
+    "max-block-range": 500,
+    "port": 3000,
+    "executor-private-keys": "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
+    "utility-private-key": "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
+    "entrypoints": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789",
+    "deploy-simulations-contract": false,
+    "enable-debug-endpoints": true,
+    "safe-mode": false,
+    "mempool-max-parallel-ops": 5,
+    "mempool-max-queued-ops": 5,
+    "enforce-unique-senders-per-bundle": false
+}
